@@ -1,19 +1,19 @@
 import Link from 'next/link'
 
-export default () => (
+export default ({ transparent }) => (
   <div>
-  <header className="header">
+  <header className={`header ${transparent ? 'transparent' : 'solid'}`}>
     <div className="container-fluid">
       <div className="row justify-content-between align-items-center">
         <div className="col-md-2 logo">
-          <img src="/images/logo.svg" alt="logo" />
+          <img src="/static/logo.svg" alt="logo" />
         </div>
         <div className="col-md-6 navigation text-md-right col-sm-12">
-          <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/clients">Clients</Link>
-          <Link href="https://medium.com/ecmastack">Blog</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/about"><a className="link">About</a></Link>
+          <Link href="/services"><a className="link">Services</a></Link>
+          <Link href="/clients"><a className="link">Clients</a></Link>
+          <Link href="https://medium.com/ecmastack"><a className="link">Blog</a></Link>
+          <Link href="/contact"><a className="link">Contac</a></Link>
         </div>
       </div>
     </div>
@@ -21,7 +21,9 @@ export default () => (
   <style jsx>{`
     .header {
       padding: 56px 60px 100px;
-      background: #273555;
+    }
+
+    .header.solid {
       background: -moz-linear-gradient(-35deg,  #273555 0%, #292d46 18%, #25293d 33%, #292d46 40%, #1c87fb 100%);
       background: -webkit-linear-gradient(-35deg,  #273555 0%,#292d46 18%,#25293d 33%,#292d46 40%,#1c87fb 100%);
       background: linear-gradient(125deg,  #273555 0%,#292d46 18%,#25293d 33%,#292d46 40%,#1c87fb 100%);
@@ -61,7 +63,7 @@ export default () => (
       margin-top: -78px;
     }
 
-    .navigation a {
+    .navigation .link {
       color: #fff;
       padding-left: 40px;
       font-size: 18px;
