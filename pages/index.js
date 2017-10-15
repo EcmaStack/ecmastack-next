@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import HomeHero from '../components/Home/Hero'
 import OurProcess from '../components/Home/OurProcess'
 import Services from '../components/Home/Services'
+import MVP from '../components/Home/MVP'
 import FooterHome from '../components/Home/FooterHome'
 import Footer from '../components/Footer'
 
@@ -13,6 +14,7 @@ export default () => (
     </div>
     <OurProcess />
     <Services />
+    <MVP />
     <FooterHome />
     <Footer />
 

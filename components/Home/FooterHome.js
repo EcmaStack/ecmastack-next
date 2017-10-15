@@ -25,19 +25,19 @@ const FooterHome = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="meetup-name">Northeast Javascript Conference</div>
-            <div className="meetup-place">Stampford</div>
+            <div className="meetup-place">Stamford, CT</div>
           </div>
           <div className="col-md-3">
             <div className="meetup-name">Fluent</div>
-            <div className="meetup-place">San Jose</div>
+            <div className="meetup-place">San Jose, CA</div>
           </div>
           <div className="col-md-3">
             <div className="meetup-name">Meteor Meetup</div>
             <div className="meetup-place">New York City</div>
           </div>
           <div className="col-md-3">
-            <div className="meetup-name">WordPress Meetup</div>
-            <div className="meetup-place">Stampford</div>
+            <div className="meetup-name">GraphQL Meetup</div>
+            <div className="meetup-place">NYC</div>
           </div>
         </div>
       </div>
