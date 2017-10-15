@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import HomeHero from '../components/Home/Hero'
 import OurProcess from '../components/Home/OurProcess'
 import Services from '../components/Home/Services'
+import Footer from '../components/Footer'
 
 export default () => (
   <div>
@@ -11,6 +12,7 @@ export default () => (
     </div>
     <OurProcess />
     <Services />
+    <Footer />
 
     <style jsx>{`
       .home-hero-header {
