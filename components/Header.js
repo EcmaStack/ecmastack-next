@@ -13,7 +13,7 @@ export default ({ transparent }) => (
           <Link href="/services"><a className="link">Services</a></Link>
           <Link href="/clients"><a className="link">Clients</a></Link>
           <Link href="https://medium.com/ecmastack"><a className="link">Blog</a></Link>
-          <Link href="/contact"><a className="link">Contac</a></Link>
+          <Link href="/contact"><a className="link">Contact</a></Link>
         </div>
       </div>
     </div>

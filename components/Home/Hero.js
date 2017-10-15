@@ -23,12 +23,11 @@ export default () => (
 <style jsx>{`
   .home-hero {
     height: 550px;
-    margin-top: 73px;
-    padding: 56px 60px 100px;
+    padding: 0 60px 100px;
   }
 
   .home-hero .home-intro {
-    margin-top: 97px;
+    margin-top: 70px;
   }
 
   .home-hero .home-rocket-wrapper {
@@ -67,6 +66,7 @@ export default () => (
     background: url(/static/home-rocket-background.svg) no-repeat;
     height: 454px;
     flex-basis: 471px;
+    text-align: center;
   }
 
   .home-hero .home-rocket .lib-icon {
@@ -82,8 +82,8 @@ export default () => (
   }
 
   .home-hero .home-rocket .lib-icon.react {
-    left: 290px;
-    top: 164px;
+    left: 307px;
+    top: 150px;
   }
 
   .home-hero .home-rocket .lib-icon.node {
@@ -94,6 +94,36 @@ export default () => (
   .home-hero .home-rocket .lib-icon.meteor {
     left: -5px;
     top: 305px;
+  }
+
+  .lib-icon:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 4px solid #e53366;
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+  }
+
+  .home-hero .home-rocket .lib-icon:after {
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    left: 14px;
+  }
+
+  .angular:after {
+    content: "GraphQL";
+  }
+  .react:after {
+    content: "React.js"
+  }
+  .node:after {
+    content: "Node.js"
+  }
+  .meteor:after {
+    content: "Meteor.js"
   }
 `}
 </style>
