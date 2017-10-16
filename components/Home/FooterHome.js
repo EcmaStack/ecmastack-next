@@ -1,6 +1,6 @@
 const FooterHome = () => {
   return (
-    <div classNameName="footer-home-wrapper">
+    <div className="footer-home-wrapper">
     <section className="footer-home">
       <div className="hgroup">
         <h1 className="footer-heading">We are based in the NYC metro area</h1>

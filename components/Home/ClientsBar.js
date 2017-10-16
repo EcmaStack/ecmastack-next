@@ -1,6 +1,6 @@
 const ClientsBar = () => {
    return (
-     <div classNameNameName="wrapper">
+     <div className="wrapper">
        <section className="home-clients">
        <div className="container d-flex justify-content-between align-items-center">
          <img src="static/bizlybw.svg" alt="Bizly" className="client-logo" />

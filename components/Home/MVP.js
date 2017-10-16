@@ -1,6 +1,6 @@
 const MVP = () => {
   return (
-    <div classNameName="home-mvp-wrapper">
+    <div className="home-mvp-wrapper">
       <section className="home-mvp">
         <div className="container">
           <h1 className="home-mvp-title">

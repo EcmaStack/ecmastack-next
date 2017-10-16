@@ -1,6 +1,6 @@
 const HomeCTA = () => {
    return (
-     <div classNameNameName="home-cta-wrapper">
+     <div className="home-cta-wrapper">
       <section className="home-cta">
         <h1 className="home-cta-title">Your turn</h1>
         <h2 className="home-cta-subtitle">Get fast &amp; robust solutions for your next project with ECMAStack.</h2>
